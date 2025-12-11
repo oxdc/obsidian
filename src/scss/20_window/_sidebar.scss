@@ -7,7 +7,7 @@
 
 .nav-buttons-container {
     gap: var(--size-4-1);
-    justify-content: left;
+    justify-content: center;
     padding-left: var(--size-2-3);
     margin-top: var(--size-4-1);
     margin-bottom: var(--size-4-1);
@@ -64,6 +64,7 @@ body:not(.is-mobile) .workspace-split {
     &.is-pinned .workspace-drawer-header,
     &-header {
         padding: var(--size-4-4) var(--size-4-5) 0 var(--size-4-5);
+        padding-bottom: calc(var(--safe-area-inset-bottom) - var(--keyboard-height));
     }
 
     &-header-switcher {

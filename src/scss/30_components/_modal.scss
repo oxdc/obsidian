@@ -11,6 +11,10 @@
 /*────────── Modal: Settings ──────────*/
 // Settings Left Sidebar
 .modal {
+    .vertical-tab-header {
+        background: var(--settings-nav-item-background);
+    }
+
     .vertical-tab-header-group {
         padding-top: 0;
     }
@@ -62,18 +66,41 @@
             color: var(--settings-nav-item-active-color);
             background: var(--alternating-color-1);
             box-shadow: var(--button-accent-shadow);
+
+            .vertical-tab-nav-item-icon {
+                color: var(--settings-nav-item-active-color);
+            }
         }
     
         &.is-active:nth-child(3n+2):not(body.is-phone .vertical-tab-nav-item) {
             color: var(--settings-nav-item-active-color);
             background: var(--alternating-color-2);
             box-shadow: var(--button-accent-shadow);
+
+            .vertical-tab-nav-item-icon {
+                color: var(--settings-nav-item-active-color);
+            }
         }
     
         &.is-active:nth-child(3n+3):not(body.is-phone .vertical-tab-nav-item) {
             color: var(--settings-nav-item-active-color);
             background: var(--alternating-color-3);
             box-shadow: var(--button-accent-shadow);
+
+            .vertical-tab-nav-item-icon {
+                color: var(--settings-nav-item-active-color);
+            }
+        }
+    }
+}
+
+// Settings Main Content
+.modal {
+    .vertical-tab-content {
+        background: var(--settings-main-background);
+
+        .setting-item {
+            background: transparent;
         }
     }
 }

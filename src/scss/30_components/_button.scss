@@ -136,7 +136,7 @@ button[disabled="true"] {
 
 .modal-close-button {
     width: var(--modal-close-button-size);
-    height: fit-content;
+    height: var(--modal-close-button-size);
 }
 
 // Property Box Add Property Button
@@ -257,5 +257,13 @@ button[disabled="true"] {
 
     &:active {
         padding: var(--button-s-padding);
+    }
+}
+
+// Mobile
+
+body:is(.is-phone, .is-mobile) {
+    .modal-close-button.mod-raised {
+        color: var(--text-normal);
     }
 }

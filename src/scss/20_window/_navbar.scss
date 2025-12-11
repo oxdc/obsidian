@@ -3,4 +3,8 @@
 .mobile-navbar {
     border-top: 1px solid var(--background-modifier-border);
     box-shadow: var(--navbar-shadow);
+
+    .mobile-navbar-action-tabs .clickable-icon svg {
+        --icon-size: var(--icon-xl);
+    }
 }

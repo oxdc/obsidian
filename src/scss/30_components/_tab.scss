@@ -67,6 +67,7 @@ body:not(.is-phone) .mod-root .workspace {
                 border: 1px solid var(--alternating-color-1);
 
                 .workspace-tab-header-inner-icon {
+                    --tab-text-color-focused-active-current: var(--alternating-color-1);
                     color: var(--alternating-color-1);
                 }
 
@@ -94,6 +95,7 @@ body:not(.is-phone) .mod-root .workspace {
                 border: 1px solid var(--alternating-color-2);
 
                 .workspace-tab-header-inner-icon {
+                    --tab-text-color-focused-active-current: var(--alternating-color-2);
                     color: var(--alternating-color-2);
                 }
 
@@ -121,6 +123,7 @@ body:not(.is-phone) .mod-root .workspace {
                 border: 1px solid var(--alternating-color-3);
 
                 .workspace-tab-header-inner-icon {
+                    --tab-text-color-focused-active-current: var(--alternating-color-3);
                     color: var(--alternating-color-3);
                 }
 

@@ -255,7 +255,7 @@ body {
 
     --button-anim: var(--anim-duration-fast) var(--anim-motion-jumpy);
 
-    --close-button-radius: var(--radius-l);
+    --close-button-radius: var(--radius-xl);
     --copy-code-button-radius: var(--radius-s);
 
     --button-opacity-active: 0.5;
@@ -342,7 +342,7 @@ body {
     --inline-code-radius: var(--radius-s);
 
     /* Embeds */
-    --embed-padding: var(--size-2-3) var(--embed-left-right-padding) 0px;
+    --embed-padding: var(--size-2-3) var(--embed-left-right-padding) var(--size-2-3) var(--embed-left-right-padding);
     --embed-left-right-padding: var(--size-4-4);
     --embed-border-radius: var(--radius-l);
     --embed-border-top: var(--embed-border-top-width)
@@ -474,7 +474,7 @@ body {
 
     &.is-mobile {
         --metadata-container-padding: var(--size-4-2) var(--size-4-2);
-        --clickable-icon-radius: var(--radius-m);
+        --clickable-icon-radius: var(--radius-xl);
         --button-radius: calc(var(--radius-l) - 2px);
         --input-font-weight: var(--font-normal);
         --mobile-folder-icon-size: 16px;
@@ -931,6 +931,10 @@ body {
     --settings-nav-item-bg-hover: transparent;
     --settings-nav-item-text-color-active: var(--color-l-gray-80);
     --settings-nav-item-active-color: var(--color-l-gray-10);
+
+    --settings-nav-item-background: var(--background-secondary);
+    --settings-main-background: var(--background-primary);
+    --settings-setting-group-background: var(--background-secondary);
 
     --community-item-flair-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
     --community-item-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.08);

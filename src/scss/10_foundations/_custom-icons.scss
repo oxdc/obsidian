@@ -124,6 +124,10 @@ svg.snap-to-object,
 svg.uppercase-lowercase-a,
 svg.vault {
     background-color: currentColor;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
 }
 
 /* General Icon Replacements */

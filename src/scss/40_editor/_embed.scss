@@ -13,8 +13,8 @@
     text-transform: var(--embed-title-text-transform);
     color: var(--embed-title-color);
     padding: 0 var(--size-4-3) var(--size-2-2);
-    margin-inline-start: calc(-1 * var(--embed-left-right-padding));
-    margin-inline-end: calc(-1 * var(--embed-left-right-padding));
+    margin-inline-start: 0;
+    margin-inline-end: 0;
     border-bottom: var(--embed-title-border);
     margin-bottom: var(--embed-title-margin-bottom);
 
